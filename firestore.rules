@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // State of global Quran Khatm counter
+    match /quran_khatm/{docId} {
+      allow read, write: if true;
+    }
+    // Any assignment audit log if written
+    match /quran_khatm_logs/{logId} {
+      allow read, write: if true;
+    }
+  }
+}

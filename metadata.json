@@ -1,0 +1,6 @@
+{
+  "name": "ختم قرآن",
+  "description": "سامانه هماهنگ و سراسری ختم قرآن کریم با تخصیص ترتیبی و همزمان صفحات قرآن به کاربران",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
